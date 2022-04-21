@@ -1,0 +1,30 @@
+body{
+    background-image: url("https://d2poqm5pskresc.cloudfront.net/wp-content/uploads/2021/12/banking-services-featured.jpg");
+    background-size: cover;
+}
+.container{
+    color: white;
+    display:block;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(147, 186, 220);
+
+    /* to get the container in the center */
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.container * {
+    padding: 10px;
+}
+#button{
+    color: white;
+    background-color: rgb(224, 65, 65);
+    font-size: large;
+    width: 100%;
+}
+tr, th, td{
+    border: 1px solid rgb(112, 112, 246);
+    border-radius: 5px;
+}
